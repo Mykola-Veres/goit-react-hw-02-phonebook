@@ -16,12 +16,6 @@ class ContactForm extends Component {
     });
   };
 
-  // handlerChangeNumber = e => {
-  //   this.setState({
-  //     number: e.target.value,
-  //   });
-  // };
-
   handlerSubmitUser = e => {
     e.preventDefault();
     const contact = {
